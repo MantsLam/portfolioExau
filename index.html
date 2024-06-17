@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exauce Mantongo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--COUVERTURE-->
+    <div class="cover"> <!--La classe pour notre bacground du cover avec le profil et autres-->
+        <img class="cover-profil" src="profile1.JPG" alt="">
+        <h1>Exaucé Mantongo</h1>
+        <p>Développeur Freelance multi-plateformes | 2 ans d'expérience</p>
+
+        <div style="text-align: center;">
+            <a class="contact-button" href="mailto:exaucemantongo64@gmail.com">ME CONTACTER</a>
+        </div>
+
+        <div class="cover-contact">
+            <p><a href="mailto:exaucemantongo64@gmail.com">exaucemantongo64@gmail.com</a></p> <!--mailto pour envoyer l'email a une adresse specifique-->
+            <p><a href="tel:+243828997217">082 89 97 217</a></p>
+        </div>
+
+    </div>
+
+    <!--SECTION GRISE 1(PREMIER TRIANGLE)-->
+    <div class="section section-grise1">
+        <div class="separateur">
+        </div>
+        <p>Je developpe des <b>Applications mobiles</b> iOS/Android, <b>Decktop</b> ou vos <b>Projets Web</b></p>
+        
+    </div>
+
+    <!--SECTION BLANCHE EN DESSOUS DU PREMIER TRANGLE (En savoir plus)-->
+    <div class="section">
+        <h2>En savoir plus</h2>
+        <img src="profil2.jpg" alt="" class="col40" style="box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);"> <!--col40 car l'image ne va occuper que 40% et les textes 60% (col60)-->
+
+        <div class="col60 float-right" style="padding-left: 16px;">
+            <div class="texte-avec-ligne-verticale">
+                <p >Passionné par la programmation et l'envie des proposer des algorithmes pour resoudre des problèmes données. Je suis maintenant Developpeur multi-plateformes. <br><br>Expert dans les domaines du <b>web</b> et des <b>applications mobiles</b>, je propose mes services personnalisés pour se lancer dans la tech.</p>
+                <a href="#" target="_blank">En savoir plus sur mon profil</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--SECTION GRISE 2-->
+    <div class="section section-grise2">
+        <h2>Portfolio</h2>
+        <table class="col-portfolio-des-deux-tables" style="display: inline-block;">  <!--50% car c'est la premiere partie du portfolio et display : inline-block car par defaut, une table est en block,
+             ça prend toute l'espace et pour laisser l'espace à l'autre, il doit etre en inline block-->
+            <tr>
+                <td><div class="barre-verticale"></div></td>
+                <td style="width: 100%;"><a href="portfolio-site-resto.html"><img style="width: 100%;" src="project1small.jpg" alt="" class="img-shadow"></a></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td  style="text-align: center;"><a href="#">Site web pour un restaurant</a></td>
+            </tr>
+        </table>
+
+        <table  class="float-right col-portfolio-des-deux-tables">
+
+            <tr>
+                <td><div class="barre-verticale"></div></td>
+                <td style="width: 100%;"><a href="portfolio-site-app-mobile.html"><img style="width: 100%;" src="project2small.jpg" alt="" class="img-shadow"></a></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td  style="text-align: center;"><a href="#">Application Mobile intelligente</a></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!--SECTION BLANCHE EN DESSOUS DU SECOND TRANGLE-->
+    <div class="section">
+        <iframe src="contact-frame.html" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
